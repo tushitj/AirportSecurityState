@@ -15,6 +15,7 @@ public class Driver {
     public void parser(String input){
 
         String[] words = input.split(";");
+        //code
 
         String[] days = words[0].split(":");
         day = Integer.parseInt(days[1]);
