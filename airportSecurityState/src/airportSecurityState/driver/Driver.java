@@ -1,32 +1,58 @@
 package airportSecurityState.driver;
 
+import airportSecurityState.util.FileProcessor;
+import airportSecurityState.util.PassengerData;
+import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
+
+import java.time.LocalTime;
+import java.util.ArrayList;
+
 public class Driver {
 
-    int day;
-    String time;
-    String airline;
-    String item;
+    public static void main(String args[]) {
+        System.out.println(args[0]);
+        ArrayList<PassengerData> dataArrayList = new ArrayList<>();
+        FileProcessor fPro = new FileProcessor(args[0]);
+        String str="";
+        while((str=fPro.readLine())!=null) {
+            PassengerData data = parser(str);
+            dataArrayList.add(data);
+        }
 
+        for(PassengerData pd : dataArrayList){
+            System.out.println(pd.getDay() + " " + pd.getTime() + " " + pd.getAirline() + " " + pd.getItem());
 
-    public static void main(String args[]){
+        }
+
 
     }
 
-    public void parser(String input){
+    static String getValue(String key, String[] sarr) {
+        for (int i = 0; i < sarr.length ; i++) {
+            if (sarr[i].toLowerCase().contains(key.toLowerCase()))
+                return sarr[i].split(":")[1];
+        }
+        return null;
+    }
+
+    public static PassengerData parser(String input) {
+        int day;
+        LocalTime time;
+        String airline;
+        String item;
 
         String[] words = input.split(";");
         //code
+        if (words.length == 4) {
+            day = Integer.parseInt(getValue("day", words));
+            String str ="";
+            time = LocalTime.parse((str = getValue("TOD", words))+":"+getValue(str,words));
 
-        String[] days = words[0].split(":");
-        day = Integer.parseInt(days[1]);
+            airline = getValue("Airline", words);
 
-        String[] times = words[1].split(":");
-        time = times[1];
-
-        String[] airlines = words[2].split(":");
-        airline = airlines[1];
-
-        String[] items = words[3].split(":");
-        item = items[1];
+            item = getValue("Item", words);
+            return new PassengerData(day,time,airline,item);
+        }
+        return null;
     }
 }
