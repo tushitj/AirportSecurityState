@@ -10,6 +10,7 @@ import java.util.ArrayList;
 public class Driver {
 
     public static void main(String args[]) {
+
         System.out.println(args[0]);
         ArrayList<PassengerData> dataArrayList = new ArrayList<>();
         FileProcessor fPro = new FileProcessor(args[0]);
