@@ -1,12 +1,9 @@
 package airportSecurityState.driver;
 
 import airportSecurityState.airportStates.AirportRiskContext;
-import airportSecurityState.airportStates.AirportStateI;
 import airportSecurityState.util.FileProcessor;
 import airportSecurityState.util.PassengerData;
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 
-import java.time.LocalTime;
 import java.util.ArrayList;
 
 public class Driver {

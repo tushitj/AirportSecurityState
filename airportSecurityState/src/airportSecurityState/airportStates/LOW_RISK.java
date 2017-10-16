@@ -14,9 +14,12 @@ public class LOW_RISK implements AirportStateI {
      *0 ≤ average prohibited items per day < 1
      */
     @Override
-    public void operationsToDo() {
-        int avgTrafficPerDay = AirportRiskContext.avgTrafficPerDay;
-        int avgProhibitedItemPerDay = AirportRiskContext.avgProhibitedItemPerDay;
+    public void operationsToDo(AverageData data) {
+        // int avgTrafficPerDay = AirportRiskContext.avgTrafficPerDay;
+        //int avgProhibitedItemPerDay = AirportRiskContext.avgProhibitedItemPerDay;
+
+        int avgTrafficPerDay = data.getAvgTrafficPerDay();
+        int avgProhibitedItemPerDay = data.getAvgProhibitedItemPerDay();
 
         if( avgTrafficPerDay>=4 || avgProhibitedItemPerDay>=1)
             airportRiskContext.setState(airportRiskContext.getModerateRisk());
