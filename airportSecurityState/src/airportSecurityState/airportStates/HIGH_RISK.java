@@ -1,11 +1,13 @@
 package airportSecurityState.airportStates;
 
+import airportSecurityState.util.MyLogger;
 import airportSecurityState.util.PassengerData;
 
 public class HIGH_RISK implements AirportStateI {
     AirportRiskContext airportRiskContext;
     public HIGH_RISK(AirportRiskContext state){
         this.airportRiskContext = state;
+        MyLogger.writeMessage("HIGH_RISK_STATE class constructor." , MyLogger.DebugLevel.CONSTRUCTOR);
     }
 
     @Override
@@ -20,6 +22,7 @@ public class HIGH_RISK implements AirportStateI {
     }
 
     public String toString(){
+
         return "2 4 6 8 10";
     }
 

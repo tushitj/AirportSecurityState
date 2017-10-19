@@ -1,5 +1,6 @@
 package airportSecurityState.airportStates;
 
+import airportSecurityState.util.MyLogger;
 import airportSecurityState.util.PassengerData;
 
 import java.util.ArrayList;
@@ -22,6 +23,8 @@ public class AverageCalculator {
         prohibitedItems.add("knife");
         prohibitedItems.add("nailcutter");
         prohibitedItems.add("blade");
+
+        MyLogger.writeMessage("AverageCalculator class constructor." , MyLogger.DebugLevel.CONSTRUCTOR);
     }
 
     public int getAvgTrafficPerDay() {

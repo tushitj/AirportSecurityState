@@ -41,6 +41,7 @@ public class FileProcessor {
         else{
             System.out.println("Invalid File Name");
         }
+        MyLogger.writeMessage("FileProcessor class constructor." , MyLogger.DebugLevel.CONSTRUCTOR);
     }
 
     /**

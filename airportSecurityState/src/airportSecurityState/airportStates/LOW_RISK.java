@@ -1,11 +1,13 @@
 package airportSecurityState.airportStates;
 
+import airportSecurityState.util.MyLogger;
 import airportSecurityState.util.PassengerData;
 
 public class LOW_RISK implements AirportStateI {
     AirportRiskContext airportRiskContext;
     public LOW_RISK(AirportRiskContext state){
         this.airportRiskContext = state;
+        MyLogger.writeMessage("LOW_RISK_STATE class constructor." , MyLogger.DebugLevel.CONSTRUCTOR);
     }
 
     /**

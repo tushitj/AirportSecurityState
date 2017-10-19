@@ -1,6 +1,8 @@
 package airportSecurityState.airportStates;
 
+import airportSecurityState.util.MyLogger;
 import airportSecurityState.util.PassengerData;
+import airportSecurityState.util.Results;
 
 public class AirportRiskContext implements AirportStateI {
     private AverageCalculator averageCalculator;
@@ -12,12 +14,14 @@ public class AirportRiskContext implements AirportStateI {
     AirportStateI state;
 
     public AirportRiskContext() {
+
         this.LowRisk = new LOW_RISK(this);
         this.ModerateRisk = new MODERATE_RISK(this);
         this.HighRisk = new HIGH_RISK(this);
         this.setState(getLowRisk());
-
         averageCalculator = new AverageCalculator();
+
+        MyLogger.writeMessage("AirportRiskContext class constructor." , MyLogger.DebugLevel.CONSTRUCTOR);
     }
 
     public void setState(AirportStateI stateI) {
@@ -29,10 +33,11 @@ public class AirportRiskContext implements AirportStateI {
         state.operationsToDo(data);
     }
 
-    public void tightenOrLoosenSecurity(PassengerData data) {
+    public void tightenOrLoosenSecurity(PassengerData data, Results result) {
         AverageData averageData= averageCalculator.calculate(data);
         operationsToDo(averageData);
-        System.out.println(this.state.toString());
+        result.storeNewResult(this.state.toString());
+        MyLogger.writeMessage("State Changed to " + this.state.getClass().getSimpleName() , MyLogger.DebugLevel.IN_RUN);
     }
 
 

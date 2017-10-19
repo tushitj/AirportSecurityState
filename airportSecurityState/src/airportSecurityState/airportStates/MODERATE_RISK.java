@@ -1,11 +1,14 @@
 package airportSecurityState.airportStates;
 
 
+import airportSecurityState.util.MyLogger;
+
 public class MODERATE_RISK implements AirportStateI {
     AirportRiskContext airportRiskContext;
 
     public MODERATE_RISK(AirportRiskContext state) {
         this.airportRiskContext = state;
+        MyLogger.writeMessage("MODERATE_RISK_STATE class constructor." , MyLogger.DebugLevel.CONSTRUCTOR);
     }
 
     @Override
