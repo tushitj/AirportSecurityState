@@ -1,7 +1,6 @@
 package airportSecurityState.airportStates;
 
 import airportSecurityState.util.MyLogger;
-import airportSecurityState.util.PassengerData;
 
 public class LOW_RISK implements AirportStateI {
     AirportRiskContext airportRiskContext;

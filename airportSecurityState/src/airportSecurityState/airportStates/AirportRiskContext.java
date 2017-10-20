@@ -5,6 +5,7 @@ import airportSecurityState.util.PassengerData;
 import airportSecurityState.util.Results;
 
 public class AirportRiskContext implements AirportStateI {
+
     private AverageCalculator averageCalculator;
 
     private AirportStateI LowRisk;
@@ -12,6 +13,8 @@ public class AirportRiskContext implements AirportStateI {
     private AirportStateI HighRisk;
 
     AirportStateI state;
+
+
 
     public AirportRiskContext() {
 
@@ -39,8 +42,6 @@ public class AirportRiskContext implements AirportStateI {
         result.storeNewResult(this.state.toString());
         MyLogger.writeMessage("State Changed to " + this.state.getClass().getSimpleName() , MyLogger.DebugLevel.IN_RUN);
     }
-
-
 
     public AirportStateI getLowRisk() {
         return LowRisk;

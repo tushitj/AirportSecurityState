@@ -6,7 +6,6 @@ import airportSecurityState.util.MyLogger;
 import airportSecurityState.util.PassengerData;
 import airportSecurityState.util.Results;
 
-import java.util.ArrayList;
 
 public class Driver {
     /**
@@ -26,18 +25,20 @@ public class Driver {
         int argLength = args.length;
        // for(String arg : args)
        // System.out.println(arg);
-        if (argLength != 3 || !checkArgs(args)) {
+        if (argLength != 3 | !checkArgs(args)) {
             System.err.println("Incorrect number of arguments " +
                     "Correct Format: input.txt output.txt debugValue");
             System.exit(1);
         }
         try{
             debugValue = Integer.parseInt(args[2]);
-            if(0<debugValue && debugValue>4 ){
+
+            if(debugValue<0 || debugValue>4 ){
                 System.err.println("Debug Value must be between 0 and 4");
                 System.exit(1);
 
             }
+            //System.out.println(debugValue);
             MyLogger.setDebugValue(debugValue);
         }catch(NumberFormatException e){
             System.err.println("Number Expected in debug value\n" +e);
