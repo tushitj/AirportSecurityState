@@ -55,6 +55,7 @@ public class Results implements FileDisplayInterface, StdoutDisplayInterface {
             out = new PrintWriter(new FileWriter(s, true), true);
             out.write(sb.toString());
         } catch (IOException e) {
+            MyLogger.writeMessage("Error in Results class. The output file cannot be created." , MyLogger.DebugLevel.IN_RESULTS);
             System.out.println("There was some error in creating the file");
             e.printStackTrace();
         } finally {

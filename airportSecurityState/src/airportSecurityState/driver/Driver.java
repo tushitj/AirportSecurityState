@@ -26,6 +26,7 @@ public class Driver {
        // for(String arg : args)
        // System.out.println(arg);
         if (argLength != 3 | !checkArgs(args)) {
+            MyLogger.writeMessage("Error in Driver class. The length is of input is not correct." , MyLogger.DebugLevel.IN_RESULTS);
             System.err.println("Incorrect number of arguments " +
                     "Correct Format: input.txt output.txt debugValue");
             System.exit(1);
@@ -34,6 +35,7 @@ public class Driver {
             debugValue = Integer.parseInt(args[2]);
 
             if(debugValue<0 || debugValue>4 ){
+                MyLogger.writeMessage("Error in Driver class. Debug Value must be between 0 and 4." , MyLogger.DebugLevel.IN_RESULTS);
                 System.err.println("Debug Value must be between 0 and 4");
                 System.exit(1);
 
@@ -41,6 +43,7 @@ public class Driver {
             //System.out.println(debugValue);
             MyLogger.setDebugValue(debugValue);
         }catch(NumberFormatException e){
+            MyLogger.writeMessage("Error in Driver class. The value passed is not an Integer." , MyLogger.DebugLevel.IN_RESULTS);
             System.err.println("Number Expected in debug value\n" +e);
             System.exit(1);
         }

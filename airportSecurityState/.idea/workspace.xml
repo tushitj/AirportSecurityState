@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fc3c536-0081-4c79-8cb4-d466df402e41" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/airportStates/AirportRiskContext.class" afterPath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/airportStates/AirportRiskContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/airportStates/AirportStateI.class" afterPath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/airportStates/AirportStateI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/airportStates/HIGH_RISK.class" afterPath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/airportStates/HIGH_RISK.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/airportStates/LOW_RISK.class" afterPath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/airportStates/LOW_RISK.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/airportStates/MODERATE_RISK.class" afterPath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/airportStates/MODERATE_RISK.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/driver/Driver.class" afterPath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/driver/Driver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/util/FileProcessor.class" afterPath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/util/FileProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/util/MyLogger.class" afterPath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/util/MyLogger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/util/PassengerData.class" afterPath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/util/PassengerData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/util/Results.class" afterPath="$PROJECT_DIR$/out/production/airportSecurityState/airportSecurityState/util/Results.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/airportSecurityState/driver/Driver.java" afterPath="$PROJECT_DIR$/src/airportSecurityState/driver/Driver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/airportSecurityState/util/FileProcessor.java" afterPath="$PROJECT_DIR$/src/airportSecurityState/util/FileProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/airportSecurityState/util/Results.java" afterPath="$PROJECT_DIR$/src/airportSecurityState/util/Results.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,49 +30,88 @@
       <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/airportSecurityState/driver/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="-17">
+              <caret line="45" column="92" lean-forward="false" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1508468716134" expanded="true" signature="2659:2667" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportStateI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportStateI.java">
+      <file leaf-file-name="FileDisplayInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/FileDisplayInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportRiskContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportRiskContext.java">
+      <file leaf-file-name="FileProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/FileProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="193">
+              <caret line="71" column="130" lean-forward="false" selection-start-line="71" selection-start-column="130" selection-end-line="71" selection-end-column="130" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1755#1756#0" expanded="true" />
-                <element signature="e#1785#1786#0" expanded="true" />
-                <element signature="e#1831#1832#0" expanded="true" />
-                <element signature="e#1866#1867#0" expanded="true" />
-                <element signature="e#1908#1909#0" expanded="true" />
-                <element signature="e#1939#1940#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MODERATE_RISK.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MODERATE_RISK.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/MODERATE_RISK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="74" lean-forward="false" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            <state relative-caret-position="43">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/MyLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PassengerData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/PassengerData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-362">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#820#821#0" expanded="true" />
+                <marker date="1508467090390" expanded="true" signature="1993:2030" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Results.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/Results.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="57" column="93" lean-forward="false" selection-start-line="57" selection-start-column="93" selection-end-line="57" selection-end-column="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StdoutDisplayInterface.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/StdoutDisplayInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -70,10 +121,9 @@
         <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/LOW_RISK.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="61" />
+              <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="61" />
               <folding>
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
+                <marker date="1508467090381" expanded="true" signature="849:999" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,49 +132,10 @@
       <file leaf-file-name="HIGH_RISK.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/HIGH_RISK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PassengerData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/PassengerData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#1542#1543#0" expanded="true" />
-                <element signature="e#1581#1582#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="2895" column="50" lean-forward="false" selection-start-line="2895" selection-start-column="50" selection-end-line="2895" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/FileProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1508467090380" expanded="true" signature="914:923" ph=" { " />
               </folding>
             </state>
           </provider>
@@ -156,16 +167,17 @@
         <option value="$PROJECT_DIR$/src/airportSecurityState/util/StringParser.java" />
         <option value="$PROJECT_DIR$/src/airportSecurityState/util/VisitorData.java" />
         <option value="$PROJECT_DIR$/src/input.txt" />
-        <option value="$PROJECT_DIR$/src/airportSecurityState/util/FileProcessor.java" />
         <option value="$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportState.java" />
         <option value="$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportStateI.java" />
-        <option value="$PROJECT_DIR$/src/airportSecurityState/driver/Driver.java" />
         <option value="$PROJECT_DIR$/src/airportSecurityState/util/PassengerData.java" />
         <option value="$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportRiskContext.java" />
         <option value="$PROJECT_DIR$/src/airportSecurityState/airportStates/LOW_RISK.java" />
         <option value="$PROJECT_DIR$/src/airportSecurityState/airportStates/HIGH_RISK.java" />
-        <option value="$PROJECT_DIR$/src/airportSecurityState/airportStates/MODERATE_RISK.java" />
         <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/src/airportSecurityState/airportStates/MODERATE_RISK.java" />
+        <option value="$PROJECT_DIR$/src/airportSecurityState/driver/Driver.java" />
+        <option value="$PROJECT_DIR$/src/airportSecurityState/util/FileProcessor.java" />
+        <option value="$PROJECT_DIR$/src/airportSecurityState/util/Results.java" />
       </list>
     </option>
   </component>
@@ -197,30 +209,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="airportSecurityState" type="58d84e3e:PackageViewProjectNode" />
-              <item name="airportSecurityState" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="airportSecurityState" type="58d84e3e:PackageViewProjectNode" />
-              <item name="airportSecurityState" type="616d4139:PackageViewModuleNode" />
-              <item name="airportSecurityState" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="airportSecurityState" type="58d84e3e:PackageViewProjectNode" />
-              <item name="airportSecurityState" type="616d4139:PackageViewModuleNode" />
-              <item name="airportSecurityState" type="1f31426a:PackageElementNode" />
-              <item name="util" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,7 +253,30 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="airportSecurityState" type="58d84e3e:PackageViewProjectNode" />
+              <item name="airportSecurityState" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="airportSecurityState" type="58d84e3e:PackageViewProjectNode" />
+              <item name="airportSecurityState" type="616d4139:PackageViewModuleNode" />
+              <item name="airportSecurityState" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="airportSecurityState" type="58d84e3e:PackageViewProjectNode" />
+              <item name="airportSecurityState" type="616d4139:PackageViewModuleNode" />
+              <item name="airportSecurityState" type="1f31426a:PackageElementNode" />
+              <item name="util" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,7 +310,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="airportSecurityState.driver.Driver" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="input.txt" />
+      <option name="PROGRAM_PARAMETERS" value="input.txt output.txt 3" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -350,6 +362,8 @@
       <workItem from="1508123611295" duration="171000" />
       <workItem from="1508184442693" duration="6000" />
       <workItem from="1508301633397" duration="943000" />
+      <workItem from="1508467227049" duration="264000" />
+      <workItem from="1508468512785" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1507658308566</created>
@@ -376,7 +390,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19050000" />
+    <option name="totallyTimeSpent" value="19685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -384,19 +398,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8440111" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61559886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19399707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19399707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -408,6 +421,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -459,7 +473,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportRiskContext.java</url>
-          <line>53</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -473,55 +487,14 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/FileProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/driver/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportStateI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportRiskContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <marker date="1508467090377" expanded="true" signature="1357:1365" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -539,8 +512,7 @@
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
+            <marker date="1508467090380" expanded="true" signature="914:923" ph=" { " />
           </folding>
         </state>
       </provider>
@@ -550,11 +522,8 @@
         <state relative-caret-position="330">
           <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <marker date="1508467090390" expanded="true" signature="1993:2030" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -582,8 +551,7 @@
         <state relative-caret-position="90">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
+            <marker date="1508467090381" expanded="true" signature="849:999" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -594,6 +562,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1508468716134" expanded="true" signature="2659:2667" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -604,13 +573,8 @@
           <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <marker date="1508467090377" expanded="true" signature="1357:1365" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -628,8 +592,7 @@
         <state relative-caret-position="60">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
+            <marker date="1508467090381" expanded="true" signature="849:999" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -639,8 +602,7 @@
         <state relative-caret-position="60">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
+            <marker date="1508467090380" expanded="true" signature="914:923" ph=" { " />
           </folding>
         </state>
       </provider>
@@ -650,11 +612,8 @@
         <state relative-caret-position="330">
           <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <marker date="1508467090390" expanded="true" signature="1993:2030" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -684,6 +643,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1508468716134" expanded="true" signature="2659:2667" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -694,13 +654,8 @@
           <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <marker date="1508467090377" expanded="true" signature="1357:1365" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -718,8 +673,7 @@
         <state relative-caret-position="60">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
+            <marker date="1508467090381" expanded="true" signature="849:999" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -729,8 +683,7 @@
         <state relative-caret-position="60">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
+            <marker date="1508467090380" expanded="true" signature="914:923" ph=" { " />
           </folding>
         </state>
       </provider>
@@ -740,11 +693,8 @@
         <state relative-caret-position="330">
           <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <marker date="1508467090390" expanded="true" signature="1993:2030" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -774,6 +724,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1508468716134" expanded="true" signature="2659:2667" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -813,86 +764,68 @@
     <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/VisitorData.java" />
     <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/State.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/StdoutDisplayInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/Results.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/FileDisplayInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/VisitorData.java" />
-    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/FileProcessor.java">
+    <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/PassengerData.java">
+    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportStateI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/driver/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportRiskContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="417">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <marker date="1508467090377" expanded="true" signature="1357:1365" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/AverageCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/AverageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/HIGH_RISK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
+            <marker date="1508467090380" expanded="true" signature="914:923" ph=" { " />
           </folding>
         </state>
       </provider>
@@ -900,34 +833,83 @@
     <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/LOW_RISK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="61" />
+          <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="61" />
           <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
+            <marker date="1508467090381" expanded="true" signature="849:999" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/AirportStateI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="2895" column="50" lean-forward="false" selection-start-line="2895" selection-start-column="50" selection-end-line="2895" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/airportSecurityState/airportStates/MODERATE_RISK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="74" lean-forward="false" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        <state relative-caret-position="43">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/driver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="45" column="92" lean-forward="false" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1508468716134" expanded="true" signature="2659:2667" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/FileDisplayInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/FileProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="71" column="130" lean-forward="false" selection-start-line="71" selection-start-column="130" selection-end-line="71" selection-end-column="130" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/MyLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/PassengerData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#820#821#0" expanded="true" />
+            <marker date="1508467090390" expanded="true" signature="1993:2030" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/Results.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="57" column="93" lean-forward="false" selection-start-line="57" selection-start-column="93" selection-end-line="57" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/airportSecurityState/util/StdoutDisplayInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>

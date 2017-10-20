@@ -59,6 +59,7 @@ public class FileProcessor {
                 return line;
             }
         }catch(IOException e){
+            MyLogger.writeMessage("Error in FileProcessor class. The file name is either not a file or does not exist." , MyLogger.DebugLevel.IN_RESULTS);
             e.printStackTrace();
         }
         finally{
@@ -68,6 +69,7 @@ public class FileProcessor {
                 if(line == null && fin!=null)
                     fin.close();
             }catch (IOException e) {
+                MyLogger.writeMessage("Error in FileProcessor class. Could not close buffers. Some object may be still using them." , MyLogger.DebugLevel.IN_RESULTS);
                 e.printStackTrace();
             }
         }
